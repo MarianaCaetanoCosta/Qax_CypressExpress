@@ -1,0 +1,28 @@
+{
+  "name": "cypress-express-mark",
+  "version": "1.0.0",
+  "description": "Projeto de testes de ponta a ponta no Mark L",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cypress open",
+    "start": "your-server-command",
+    "cypress:open": "cypress open",
+    "test": "your-server-command & cypress run",
+    "test:allure": "cypress run --env allure=true",
+    "cypress:run:allure": "npx cypress run --env allure=true"
+  },
+  "author": "Mariana Caetano",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "allure-commandline": "^2.30.0",
+    "babel-loader": "^9.2.1",
+    "cypress": "^12.2.0",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "cypress-express-mark": "file:"
+  }
+}
