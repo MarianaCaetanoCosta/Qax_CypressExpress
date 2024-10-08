@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1009","Não deve permitir tarefa duplicada","tarefas","Mon Oct 07 23:14:49 BRT 2024","passed","Mon Oct 07 23:14:50 BRT 2024","","cadastro","",""
+"","336","Campo obrigatório","tarefas","Mon Oct 07 23:14:50 BRT 2024","passed","Mon Oct 07 23:14:50 BRT 2024","","cadastro","",""
+"","1105","webapp deve estar online","","Mon Oct 07 23:14:39 BRT 2024","passed","Mon Oct 07 23:14:40 BRT 2024","","home","",""
+"","1519","deve cadastrar uma nova tarefa","tarefas","Mon Oct 07 23:14:47 BRT 2024","passed","Mon Oct 07 23:14:49 BRT 2024","","cadastro","",""
+"","514","deve remover uma tarefa","tarefas","Mon Oct 07 23:14:51 BRT 2024","passed","Mon Oct 07 23:14:51 BRT 2024","","exclusão","",""
+"","537","deve concluir uma tarefa","tarefas","Mon Oct 07 23:14:50 BRT 2024","passed","Mon Oct 07 23:14:51 BRT 2024","","atualização","",""
