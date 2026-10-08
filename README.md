@@ -1,71 +1,59 @@
-# Cypress_eXpress
+# QA Automação Web — Cypress | Mark L
 
-Bem-vindo ao Projeto Mark L!
+Projeto de automação de testes E2E desenvolvido para prática de automação com Cypress, utilizando a aplicação **Mark L**.
 
-Este projeto tem como objetivo testar o gerenciador de tarefas **Mark L**, explorando os conceitos fundamentais do framework Cypress. Ao longo do desenvolvimento, são aplicadas boas práticas de automação e, ao final, são gerados relatórios de testes de regressão com evidências em imagens e vídeos.
+## 🎯 Objetivo
 
----
+Aplicar técnicas de automação Web com Cypress, estruturando testes de regressão e utilizando recursos do framework para tornar a execução e a análise dos resultados mais eficientes.
 
-## 🚀 Tecnologias Utilizadas
-- [Cypress](https://www.cypress.io/) - Framework de testes E2E.
-- [Node.js](https://nodejs.org) - Ambiente de execução JavaScript.
+## 🧪 Tecnologias
 
----
+- Cypress
+- Node.js
+- JavaScript
 
-## 📋 Pré-requisitos
-Antes de começar, certifique-se de ter instalado em sua máquina:
-- [Visual Studio Code](https://code.visualstudio.com/download)
-- [Node.js](https://nodejs.org) (versão LTS recomendada)
+## 🔬 Escopo de automação
 
-- Gerenciador de pacotes:
-  -  `npm` (já inclusos no Node.js)
-  -  [Yarn](https://yarnpkg.com/)
+- Testes E2E
+- Testes de regressão
+- Seletores e interação com elementos
+- Comandos e suporte do Cypress
+- Fixtures para massa de dados
+- Execução em modo interativo e headless
+- Evidências de execução, quando geradas pelo framework
 
----
+## ▶️ Como executar
 
-## ⚙️ Instalação
+Instale as dependências:
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com
-   ```
+```bash
+npm install
+```
 
-2. Acesse a pasta do projeto:
-   ```bash
-   cd nome-do-repositorio
-   ```
+Abrir o Cypress:
 
-3. Instale as dependências do projeto:
-   ```bash
-   npm install
-   ```
+```bash
+npx cypress open
+```
 
----
+Executar em modo headless:
 
-## 🧪 Como Executar os Testes
+```bash
+npx cypress run
+```
 
-* **Abrir a interface gráfica do Cypress** (modo interativo):
-  ```bash
-  npx cypress open
-  ```
+Executar em navegador específico:
 
-* **Executar os testes em modo headless** (terminal / linha de comando):
-  ```bash
-  npx cypress run
-  ```
+```bash
+npx cypress run --browser chrome
+```
 
-* **Executar os testes em um navegador específico** (ex: Chrome):
-  ```bash
-  npx cypress run --browser chrome
-  ```
+## 📁 Estrutura
 
----
+- `cypress/e2e/` — cenários de teste E2E
+- `cypress/support/` — comandos e configurações de suporte
+- `cypress/fixtures/` — dados utilizados pelos testes
 
-## 📁 Estrutura do Projeto
-- `cypress/e2e/` - Contém os arquivos de teste (`.cy.js` ou `.cy.ts`).
-- `cypress/support/` - Comandos customizados e configurações globais.
-- `cypress/fixtures/` - Massa de dados mockados para os testes.
+## 📌 Contexto
 
-##  📄 Licença
-
-Este projeto é destinado a fins de estudo, prática profissional e demonstração de conhecimentos em automação de testes.
+Projeto de formação prática em automação de testes. O foco do repositório é demonstrar a aplicação de Cypress em um projeto de QA, e não apenas registrar o conteúdo de um curso.
